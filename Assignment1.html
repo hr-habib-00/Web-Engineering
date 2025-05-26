@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>HR Cafe Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #4b2e2e;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 90%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f2e6d9;
+      color: #5a3e36;
+      font-size: 18px;
+    }
+
+    img {
+      width: 100px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .ingredients {
+      color: #333;
+      font-size: 14px;
+    }
+
+    @media screen and (max-width: 768px) {
+      table, th, td {
+        font-size: 14px;
+      }
+      img {
+        width: 80px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Habib</h1>
+
+  <h1>Welcome to HR Cafe</h1>
+
+  <table>
+    <tr>
+      <th>Image</th>
+      <th>Item Name</th>
+      <th>Ingredients</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td><img src="latte.jpg" alt="Latte"></td>
+      <td>Classic Latte</td>
+      <td class="ingredients">Espresso, Steamed Milk, Foam</td>
+      <td>5$</td>
+    </tr>
+    <tr>
+      <td><img src="sandwitch.webp" alt="Sandwich"></td>
+      <td>Veggie Sandwich</td>
+      <td class="ingredients">Whole grain bread, Lettuce, Tomato, Cheese, Mayo</td>
+      <td>4$</td>
+    </tr>
+    <tr>
+      <td><img src="cookie.jpg" alt="Cookie"></td>
+      <td>Choco Chip Cookie</td>
+      <td class="ingredients">Flour, Chocolate Chips, Butter, Sugar, Eggs</td>
+      <td>2$</td>
+    </tr>
+    <tr>
+      <td><img src="Mocha.png" alt="Mocha"></td>
+      <td>Mocha</td>
+      <td class="ingredients">Espresso, Chocolate Syrup, Steamed Milk, Whipped Cream</td>
+      <td>6$</td>
+    </tr>
+  </table>
+
 </body>
 </html>
